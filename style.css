@@ -1,0 +1,141 @@
+.header{
+    width: auto;
+    height: 60px;
+    background-color: #1F2937;
+    display: flex;
+    gap: 1vw;
+    padding: 2vw 10vw 0 10vw;
+    justify-content: flex-end;
+}
+.header >*{
+    color: #f9faf8;
+}
+.logo{
+    margin-right: auto;
+}
+
+.top-content{
+    background-color: #1F2937;
+    display: flex;
+    padding: 0 10vw 4vw 10vw;
+    justify-content: space-between;
+}
+
+.top-content>*{
+    color: #f9faf8;
+}
+
+.flexbox-container1{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up{
+    width: 80px;
+    height: auto;
+    padding: 4px;
+
+}
+
+.top{
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 5px;
+}
+
+.middle-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container{
+    padding: 0 10vw 4vw 10vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.image-container > div{
+    text-align: center;
+    max-width: 100px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-container > div > img{
+    max-width: 100px;
+    height: auto;
+}
+.quote{
+    padding: 4vw 20vw;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote>p{
+    margin: 0;
+    font-size: 24px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote>div{
+    align-self: flex-end;
+}
+
+.sign-up-advert{
+    padding: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    align-self: center;
+    width: auto;
+    height: auto;
+    background-color: #3882F6;
+    display: flex;
+    gap: 12vw;
+}
+.sua-text{
+    display: flex;
+    flex-direction: column;
+}
+.sua-text > p, h3{
+    margin: 0;
+}
+
+.sua-text > p{
+    color: #e5e7eb;
+}
+
+.sua-text > h3{
+    color: #f9faf8;
+}
+.sign-up-advert > button{
+    color: #f9faf8;
+    align-self:last baseline;
+    background-color: #3882F6;
+    border-color: #e5e7eb;
+    border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+    place-content: center center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    width: 100%;
+    height: auto;
+    padding: 2vw;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
