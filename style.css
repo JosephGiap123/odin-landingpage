@@ -10,7 +10,13 @@
 .header >*{
     color: #f9faf8;
 }
+
+.top-content > img{
+    width: 200px;
+    height: auto;
+}
 .logo{
+    font-weight: bold;
     margin-right: auto;
 }
 
@@ -86,6 +92,7 @@
 
 .quote>div{
     align-self: flex-end;
+    color: #1F2937;
 }
 
 .sign-up-advert{
@@ -131,6 +138,7 @@
     width: 100%;
     height: auto;
     padding: 2vw;
+    /* align-self: flex-end;*/
 }
 
 body{
@@ -138,4 +146,8 @@ body{
     padding: 0px;
     display: flex;
     flex-direction: column;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
 }
